@@ -7,18 +7,27 @@ html, body {
 }
 
 header, footer {
+	width: 300px, 100%;
+	height: 200px;
+	max-width: 1200px;
+	background-color: purple
 
 }
 
-.centered {
+.centered {margin-left: 300px;
+			margin-right: 300px;
+
 
 }
 
-header .subtitle {
+header .subtitle { font-family: 'Encode Sans Expanded', sans-serif;
+					color: white;
 
 }
 
-h1 {
+h1 {font-family: 'Raleway', sans-serif;
+	font-size: 52px;
+	color: white;
 
 }
 
@@ -27,42 +36,91 @@ ul {
 	flex-wrap: wrap;
 }
 
-ul li {
-	width: 50%;
-}
-
-main {
-
-}
-
-section {
+ul li {font-family: 'Encode Sans Expanded', sans-serif;
+		font-size: 12px;
+	width: 60%;
+	color: white;
 
 }
 
-h2 {
+main {font-family: 'Raleway', sans-serif;
+		color: purple;
 
 }
 
-h3 {
+section {margin-left: 300px;
+			margin-right: 300px;
 
 }
 
-p {
+h2 {font-size: 32px;
 
 }
 
-.details {
+article {margin-left: 50px;
+			margin-right: 300px;
 
 }
 
-.object {
+
+h3 {font-size: 16px;
+			color: purple;
+			font-weight: 800;
+
 
 }
 
-.object:after {
+p {font-size: 13px;
+		color: black;
+
+
+}
+
+.details {font-size: 13px;
+			line-height: 5px;
+			color: purple;
+
+}
+
+.object {font-weight: 800;
+		font-size: 13px;
+
+
+
+}
+
+.period {
+
+
+}
+
+.object:after {font-size: 13px;
 	content: " | ";
 }
 
-footer h2 {
 
-}
+
+
+section ul li {font-family: 'Encode Sans Expanded', sans-serif;
+		font-size: 12px;
+	width: 60%;
+	color: black;
+
+	}
+
+
+footer h2 {padding-top: 54px;
+			font-size: 16px;
+			color: white;
+			font-weight: 800;
+			font-family: 'Raleway', sans-serif;
+
+			}
+
+footer p { color: white;
+			font-family: 'Raleway', sans-serif;
+			margin-left: 50px;
+
+
+	}
+
